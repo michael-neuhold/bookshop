@@ -1,0 +1,2 @@
+<wea5-book-list *ngIf="listOn" (showDetailsEvent)="showDetails($event)"></wea5-book-list>
+<wea5-book-details *ngIf="detailsOn" [book]="book" (showListEvent)="showList()"></wea5-book-details>
